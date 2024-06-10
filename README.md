@@ -8,15 +8,15 @@ The Solidity smart contract contains two functions:
 - getTotalMessages returns the number of messages stored in the smart contract.
 - getLastMessage returns the last message sent.
   
- Then we enter a name for the project and you will see the contract in the code editor and click on “Deploy” to trigger the smart contract compilation and deployment.
+ Then i enter a name for the project and clicked on “Deploy” to trigger the smart contract compilation and deployment.
 ![ZeekMessage](https://github.com/emmyoat/BUILDH3R_JUNE_/assets/120312489/206d6cf9-c7c6-42d6-a8d5-1b6590fc7dd8)
-Once compiled sign the transaction with your wallet and wait until it's processed. 
+Once compiled i sign the transaction with your wallet and wait until it's processed. 
 The “Write Functions” section contains the form to interact with the sendMessage function. Write a message, click the “Run” button and confirm the transaction in your wallet. You’ll see that the getTotalMessages is updated to 1 and getLastMessage returns the message you just sent.
 
 ![ZeekMessage2](https://github.com/emmyoat/BUILDH3R_JUNE_/assets/120312489/e0c804d7-1f8e-4aab-8994-87b114f1c77a)
 
 ## Check the contract in explorer
-Copy the smart contract address from Atlas/Remix and search it via the zkSync Sepolia Testnet explorer. You’ll see the contract has a transaction from the message you just sent.
+I copied the smart contract address from Atlas/Remix and searched it via the zkSync Sepolia Testnet explorer. I saw a transaction from the message i sent.
 ![CA](https://github.com/emmyoat/BUILDH3R_JUNE_/assets/120312489/51e1c61c-7b9a-46fb-be86-2484d7391bcb)
 
 # **Create an ERC20 token**
@@ -24,8 +24,8 @@ The ERC20 token i am to deploy will allow users to mint and burn tokens.
 
 ### Deploy the smart contract
 I used Atlas for the deployment ![TestToken](https://github.com/emmyoat/BUILDH3R_JUNE_/assets/120312489/2796cc68-07f8-4729-8cdf-2d160365eba2)
-You can see the contract in the Atlas code editor. In the right sidebar, make sure the selected network is “zkSync Sepolia Testnet“ and click on "Deploy" to trigger the smart contract compilation and deployment.
-Once compiled sign the transaction with your wallet and wait until its processed. You’ll see the contract in the “Deployed contracts” section.
+ I changed the selected network to “zkSync Sepolia Testnet“ and clicked on "Deploy" to trigger the smart contract compilation and deployment.
+Once compiled i signed the transaction with my wallet and waited until its processed. 
 
 ## **Interact with the ERC20 contract**
 I used the following variables in my code

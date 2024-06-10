@@ -49,4 +49,11 @@ only the ERC20 balance decreased, meaning the fee was paid with the ERC20 token 
 
 
 
+# **Building with Python on Algorand**
+The result of the code![Screenshot (54)](https://github.com/emmyoat/BUILDH3R_JUNE_/assets/120312489/3e1467f0-cc94-4ef6-8983-ddc5b726845c)
+
+
+
+
+
 
